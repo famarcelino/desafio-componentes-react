@@ -1,0 +1,12 @@
+.dsct-cart-text-container {
+    background-color: var(--dsct-color-bg-primary);
+    border: 1px solid var(--dsct-color-bg-secondary);
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin-top: 25px;
+}
+
+.dsct-cart-text-container p {
+    color: var(--dsct-color-font-tertiary);
+    font-size: 16px;
+}

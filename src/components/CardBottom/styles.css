@@ -1,0 +1,17 @@
+.dsct-card-bottom-container {
+    background-color: var(--dsct-color-bg-tertitary);
+    padding: 25px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.dsct-card-bottom-container h3 {
+    font-size: 20px;
+}
+
+@media (min-width: 576px) {
+    .dsct-card-bottom-container h3 {
+        font-size: 32px;
+    }
+}

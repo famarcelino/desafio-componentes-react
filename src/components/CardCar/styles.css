@@ -1,0 +1,37 @@
+.dsct-card-car-container {
+    border: 1px solid var(--dsct-color-bg-secondary);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: grid;
+    justify-content: center;
+}
+
+.dsct-card-car-container img {
+    width: 194px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dsct-card-car-container h3 {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 576px) {
+    .dsct-card-car-container img {
+        width: 292px;
+    }
+    
+    .dsct-card-car-container h3 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 760px) {
+    .dsct-card-car-container {
+        width: 746px;
+    }
+}
